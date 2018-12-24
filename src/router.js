@@ -5,6 +5,7 @@ import Home from "./views/Home.vue";
 Vue.use(Router);
 
 export default new Router({
+  base: "/20181226-vue-ci-cd/",
   routes: [
     {
       path: "/",
